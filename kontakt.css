@@ -1,0 +1,54 @@
+html{
+	background-image: url(more2.png);
+	background-size: 100%;
+}
+
+body{
+	text-align: center;
+	color: darkred;
+	font-family: Georgia, sans-serif;
+}
+
+.topnav {
+  background-color: darkred;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Georgia,sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.pocetna {
+  background-color: #800000;
+  color: white;
+}
+.kontakt{
+	text-align: center;
+	margin-top: 350px;
+}
+
+
+.kkk{
+	text-decoration: none;
+	color:darkred;
+}
+
+.bbb{
+	text-decoration: none;
+	color:darkred;
+}
+
+h1{
+	font-size: 30px;
+}

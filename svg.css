@@ -1,0 +1,54 @@
+html{
+	background-color: peachpuff;
+}
+
+body{
+	text-align: center;
+}
+
+svg{
+	margin-top: 100px;
+	width: 1000px;
+	transition: 0.2s;
+}
+
+.pravougaonik{
+	fill:#8b0000;
+	transition: 0.2s;
+}
+
+svg:hover .pravougaonik{
+	fill:#6495ED;
+	stroke:darkred;
+	stroke-width: 60;
+	rotate:-1deg;	
+	width: 2000px;
+
+}
+
+.linija {
+	fill:none;
+	stroke:#8b0000;
+	stroke-width:60;
+	stroke-miterlimit:10;
+	transition: 0.2s;
+}
+
+svg:hover .linija{
+	stroke:#6495ED;
+	stroke-width: 30;
+	transition: 0.2s;
+	d: path("M1984.51,944.23c122.49,21.86,277.04,131.48,338.09,178.43c908.32,698.71-1193.7,651.13-892.17,920.35 c131.48,117.39,1643.48-61.04,910.96,723.13");
+}
+
+.elipsa {
+	fill:#8b0000;
+	transition: 0.2s;
+}
+
+svg:hover .elipsa{
+	fill:#6495ED;
+	stroke:darkred;
+	stroke-width: 60;
+	rotate:-1deg;
+}

@@ -1,0 +1,59 @@
+html{
+	background-color: peachpuff;
+	background-size: 100%;
+}
+
+body{
+	text-align: center;
+	font-family: Georgia,sans-serif;
+}
+
+h1{
+	font-size:70px;
+	color: darkred;
+}
+
+p{
+	font-size: 30px;
+	color: darkred;
+	text-align: left;
+	margin-left:10px;
+	margin-right: 50%;
+}
+
+.topnav {
+  background-color: darkred;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Georgia;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.pocetna {
+  background-color: darkred;
+  color: white;
+}
+
+.nutela{
+	width: 650px;
+	height: 650px;
+	margin-left: 150px;
+}
+
+.miki{
+	width: 200px;
+	display:block;
+	margin-right: 20px;
+}
